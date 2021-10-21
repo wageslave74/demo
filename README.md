@@ -1,11 +1,13 @@
-# First build the retwis image
-# cd retwis
-# docker build -t retwis:latest .
+# Demo of a flask/redis app in docker
 
-# Then use docker-compose to install the app
-# cd ..
-# docker-compose up -d 
+First build the retwis image
+cd retwis
+docker build -t retwis:latest .
 
-# Then hit http://localhost:9001/ in your web browser
-# Create a user and pass
-# Then make some posts. All posts are stored in redis. 
+Then use docker-compose to install the app
+cd ..
+docker-compose up -d 
+
+Then hit http://localhost:9001/ in your web browser
+Create a user and pass
+Then make some posts. All posts are stored in redis. 

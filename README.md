@@ -1,11 +1,6 @@
 # Demo of a flask/redis app in docker
 
-First build the retwis image
-- cd retwis
-- docker build -t retwis:latest .
-
-Then use docker-compose to install the app
-- cd ..
+Use docker-compose to install and run the app
 - docker-compose up -d 
 
 Then hit http://localhost:9001/ in your web browser

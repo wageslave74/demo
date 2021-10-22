@@ -12,6 +12,7 @@ services:
     networks:
       - demo
   retwis:
+    build: retwis/.
     container_name: retwis
     image: retwis
     networks:
